@@ -1,0 +1,43 @@
+# 工作流的名字，会显示在 GitHub 仓库的 Actions 页面
+name: CI
+
+# “什么时候自动运行”
+on:
+  # 有人开 PR，或往已有 PR 里 push 新提交时，运行
+  pull_request:
+
+  # 有人往 main 分支 push 时也运行（合并 PR 后会触发一次）
+  push:
+    branches: [main]
+
+# 给这个工作流最小权限：只读仓库内容，不允许它改代码
+permissions:
+  contents: read
+
+# 下面定义“要做什么任务”
+jobs:
+  # 任务 id，叫 lint-build；后面保护 main 时会看到这个名字
+  lint-build:
+    # 用 GitHub 提供的最新 Ubuntu 虚拟机来跑，不用你的电脑
+    runs-on: ubuntu-latest
+
+    # 任务里的步骤，从上到下依次执行；任何一步失败，整个任务就红
+    steps:
+      # 第 1 步：把仓库代码下载到这台虚拟机上
+      - uses: actions/checkout@v4
+
+      # 第 2 步：安装 Node.js 22，并缓存 npm 依赖，下次运行更快
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # 第 3 步：按 package-lock.json 精确安装依赖
+      # 用 npm ci 而不是 npm install：CI 里要求版本完全一致、可重复
+      - run: npm ci
+
+      # 第 4 步：跑 ESLint；有错误就停在这里，PR 变红
+      - run: npm run lint
+
+      # 第 5 步：跑生产构建；有类型错误或构建错误就停在这里
+      - run: npm run build

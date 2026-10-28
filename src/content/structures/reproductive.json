@@ -1,0 +1,33 @@
+[
+  {
+    "id": "uterus", "system": "reproductive", "region": "pelvis", "sex": "female",
+    "names": { "la": "Uterus", "en": "Uterus", "zh": "子宫", "synonyms": ["womb"] },
+    "summary": { "en": "Pear-shaped muscular organ in which the fertilised egg implants and the fetus develops.", "zh": "梨形的肌性器官，受精卵在此着床并发育为胎儿。" },
+    "detail": { "en": "Lies in the pelvis between the bladder and rectum. Parts: fundus, body and cervix. The wall has three layers: perimetrium, myometrium and endometrium. It is normally anteverted and anteflexed and held by the broad, round, cardinal and uterosacral ligaments.", "zh": "位于盆腔内膀胱与直肠之间，分子宫底、子宫体和子宫颈。壁分三层：外膜（浆膜）、肌层和内膜。正常呈前倾前屈位，由子宫阔韧带、圆韧带、主韧带和骶子宫韧带维持。" },
+    "function": { "en": "Menstruation, implantation, gestation and labour.", "zh": "产生月经、孕育胎儿并分娩。" },
+    "clinical": { "en": "Cervical cancer is largely preventable by HPV vaccination and screening with Pap smear.", "zh": "宫颈癌可通过HPV疫苗和宫颈涂片筛查在很大程度上预防。" }
+  },
+  {
+    "id": "ovaries", "system": "reproductive", "region": "pelvis", "sex": "female",
+    "names": { "la": "Ovaria", "en": "Ovaries", "zh": "卵巢", "synonyms": ["ovary"] },
+    "summary": { "en": "Paired almond-shaped female gonads that produce ova and sex hormones.", "zh": "成对的杏仁状女性生殖腺，产生卵子和性激素。" },
+    "detail": { "en": "Located on the lateral pelvic wall in the ovarian fossa, attached to the uterus by the ovarian ligament and to the pelvic wall by the suspensory ligament, which carries the ovarian vessels. The fimbriae of the uterine tube lie near each ovary.", "zh": "位于盆侧壁卵巢窝内，借卵巢固有韧带连于子宫，借卵巢悬韧带（内有卵巢血管）连于盆壁。输卵管伞靠近卵巢。" },
+    "function": { "en": "Ovulation and secretion of estrogen and progesterone.", "zh": "排卵，并分泌雌激素和孕激素。" },
+    "clinical": { "en": "Ovarian cancer is often diagnosed late because early symptoms are vague.", "zh": "卵巢癌早期症状不明显，常诊断较晚。" }
+  },
+  {
+    "id": "prostate", "system": "reproductive", "region": "pelvis", "sex": "male",
+    "names": { "la": "Prostata", "en": "Prostate", "zh": "前列腺" },
+    "summary": { "en": "Chestnut-sized gland surrounding the male urethra below the bladder.", "zh": "栗子大小的腺体，位于膀胱下方，环绕男性尿道起始部。" },
+    "detail": { "en": "Lies behind the pubic symphysis and in front of the rectum, so its posterior surface can be palpated on digital rectal examination. The urethra and ejaculatory ducts pass through it. Divided into central, transition, peripheral and anterior zones.", "zh": "位于耻骨联合后方、直肠前方，直肠指检可触及其后面。尿道和射精管穿过其中。分为中央区、移行区、外周区和前纤维肌质区。" },
+    "function": { "en": "Secretes a slightly alkaline fluid that forms about 30% of semen and contains PSA.", "zh": "分泌弱碱性液体，约占精液的30%，含前列腺特异性抗原（PSA）。" },
+    "clinical": { "en": "Benign prostatic hyperplasia arises in the transition zone and obstructs urine flow; most carcinomas arise in the peripheral zone.", "zh": "良性前列腺增生起源于移行区，可阻塞尿流；多数前列腺癌起源于外周区。" }
+  },
+  {
+    "id": "testes", "system": "reproductive", "region": "pelvis", "sex": "male",
+    "names": { "la": "Testes", "en": "Testes", "zh": "睾丸", "synonyms": ["testis", "testicle"] },
+    "summary": { "en": "Paired male gonads within the scrotum that produce sperm and testosterone.", "zh": "位于阴囊内的成对男性生殖腺，产生精子和睾酮。" },
+    "detail": { "en": "Each testis is an ovoid organ about 4 to 5 cm long, covered by the tunica albuginea and lying in the scrotum with the epididymis on its posterior border. Sperm are produced in the seminiferous tubules; the scrotum keeps them 2 to 3 °C below body temperature.", "zh": "每侧睾丸呈卵圆形，长约4~5 cm，表面包被白膜，位于阴囊内，后缘附着附睾。精子在生精小管内产生；阴囊使睾丸温度比体温低2~3 °C。" },
+    "clinical": { "en": "Testicular torsion is a surgical emergency, most often in adolescents.", "zh": "睾丸扭转是急诊手术指征，青少年多见。" }
+  }
+]

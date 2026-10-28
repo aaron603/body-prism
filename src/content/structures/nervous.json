@@ -1,0 +1,68 @@
+[
+  {
+    "id": "brain", "system": "nervous", "region": "head_neck",
+    "names": { "la": "Encephalon", "en": "Brain", "zh": "脑", "synonyms": ["cerebrum", "大脑"] },
+    "summary": { "en": "Control center of the nervous system, housed in the cranial cavity.", "zh": "神经系统的控制中枢，位于颅腔内。" },
+    "detail": { "en": "Consists of the cerebrum (two hemispheres divided into frontal, parietal, temporal and occipital lobes), diencephalon, brainstem (midbrain, pons, medulla oblongata) and cerebellum. Surrounded by three meninges: dura mater, arachnoid mater and pia mater. Cerebrospinal fluid circulates in the ventricles and subarachnoid space.", "zh": "由端脑（左右大脑半球，分额叶、顶叶、颞叶、枕叶）、间脑、脑干（中脑、脑桥、延髓）和小脑组成。外包硬脑膜、蛛网膜和软脑膜三层被膜。脑脊液在脑室和蛛网膜下腔内循环。" },
+    "function": { "en": "Integrates sensation, controls movement, supports language, memory and emotion, and regulates vital functions.", "zh": "整合感觉、控制运动，参与语言、记忆和情感，并调节生命活动。" },
+    "clinical": { "en": "Ischemic stroke from occlusion of the middle cerebral artery causes contralateral hemiplegia and, in the dominant hemisphere, aphasia.", "zh": "大脑中动脉闭塞引起的缺血性卒中可致对侧偏瘫，优势半球受累时伴失语。" },
+    "relations": { "bloodSupply": ["common_carotid_artery"] }
+  },
+  {
+    "id": "cerebellum", "system": "nervous", "region": "head_neck",
+    "names": { "la": "Cerebellum", "en": "Cerebellum", "zh": "小脑" },
+    "summary": { "en": "Posterior brain structure that coordinates movement and balance.", "zh": "位于脑后部，负责协调运动和维持平衡。" },
+    "detail": { "en": "Lies in the posterior cranial fossa beneath the tentorium cerebelli, behind the pons and medulla. It has two hemispheres joined by the vermis and connects to the brainstem through three pairs of peduncles.", "zh": "位于颅后窝小脑幕下方，在脑桥和延髓后方。由两侧小脑半球和中间的小脑蚓部构成，通过三对小脑脚与脑干相连。" },
+    "function": { "en": "Fine-tunes voluntary movement, posture and balance, and takes part in motor learning.", "zh": "精细调节随意运动、姿势和平衡，并参与运动学习。" },
+    "clinical": { "en": "Cerebellar lesions cause ipsilateral ataxia, intention tremor and nystagmus.", "zh": "小脑病变引起同侧共济失调、意向性震颤和眼球震颤。" }
+  },
+  {
+    "id": "spinal_cord", "system": "nervous", "region": "back",
+    "names": { "la": "Medulla spinalis", "en": "Spinal cord", "zh": "脊髓" },
+    "summary": { "en": "Cylindrical bundle of nervous tissue running within the vertebral canal.", "zh": "位于椎管内的圆柱形神经组织。" },
+    "detail": { "en": "About 42 to 45 cm long in adults; extends from the foramen magnum to the conus medullaris at about L1 to L2, with 31 pairs of spinal nerves. Below the conus the cauda equina continues in the lumbar cistern. Cervical and lumbar enlargements supply the limbs.", "zh": "成人长约42~45 cm，上自枕骨大孔，下端脊髓圆锥约平L1~L2，共发出31对脊神经。圆锥以下为马尾，位于终池内。颈膨大和腰骶膨大分别支配上、下肢。" },
+    "function": { "en": "Conducts signals between brain and body and mediates spinal reflexes.", "zh": "在脑与躯体之间传导信号，并完成脊髓反射。" },
+    "clinical": { "en": "Lumbar puncture is done below L3 to avoid injuring the cord.", "zh": "腰椎穿刺在L3以下进行，以免损伤脊髓。" },
+    "relations": { "bloodSupply": ["aorta"] }
+  },
+  {
+    "id": "brachial_plexus", "system": "nervous", "region": "upper_limb",
+    "names": { "la": "Plexus brachialis", "en": "Brachial plexus", "zh": "臂丛" },
+    "summary": { "en": "Network of nerves that supplies the shoulder and upper limb.", "zh": "支配肩部和上肢的神经丛。" },
+    "detail": { "en": "Formed by the anterior rami of C5 to T1. Organized as roots, trunks, divisions, cords and branches. Main terminal branches: musculocutaneous, axillary, radial, median and ulnar nerves.", "zh": "由C5~T1脊神经前支组成，依次分为根、干、股、束和分支。主要终支有肌皮神经、腋神经、桡神经、正中神经和尺神经。" },
+    "clinical": { "en": "Upper trunk injury at birth causes Erb palsy (waiter's tip posture); lower trunk injury causes Klumpke palsy.", "zh": "产伤导致上干损伤可出现Erb麻痹（“侍者收小费”姿势）；下干损伤出现Klumpke麻痹。" },
+    "relations": { "origin": ["spinal_cord"] }
+  },
+  {
+    "id": "phrenic_nerve", "system": "nervous", "region": "thorax",
+    "names": { "la": "Nervus phrenicus", "en": "Phrenic nerve", "zh": "膈神经" },
+    "summary": { "en": "Nerve that provides motor supply to the diaphragm.", "zh": "支配膈的运动神经。" },
+    "detail": { "en": "Arises mainly from C4 (with contributions from C3 and C5), descends in front of scalenus anterior and through the thorax, passing in front of the lung root to reach the diaphragm. It also carries sensation from the pericardium and diaphragmatic pleura.", "zh": "主要来自C4（C3、C5也参与），在前斜角肌前方下行入胸腔，经肺根前方到达膈。同时传导心包和膈胸膜的感觉。" },
+    "clinical": { "en": "“C3, 4, 5 keeps the diaphragm alive”; diaphragm irritation can refer pain to the shoulder tip.", "zh": "口诀“C3、4、5维持膈的活力”；膈受刺激时可牵涉至肩尖部疼痛。" },
+    "relations": { "origin": ["spinal_cord"] }
+  },
+  {
+    "id": "vagus_nerve", "system": "nervous", "region": "whole_body",
+    "names": { "la": "Nervus vagus", "en": "Vagus nerve", "zh": "迷走神经", "synonyms": ["cranial nerve X", "CN X", "第X对脑神经"] },
+    "summary": { "en": "Tenth cranial nerve, the main parasympathetic nerve of the thorax and abdomen.", "zh": "第10对脑神经，是胸腹部脏器的主要副交感神经。" },
+    "detail": { "en": "Emerges from the medulla, leaves the skull through the jugular foramen and descends in the carotid sheath. Right and left vagus nerves form the esophageal plexus and enter the abdomen as anterior and posterior vagal trunks. Supplies heart, lungs, and the gut as far as the left colic flexure.", "zh": "自延髓发出，经颈静脉孔出颅，在颈动脉鞘内下行。左右迷走神经在食管周围形成食管丛，再汇成迷走神经前、后干入腹腔。支配心、肺和消化管至结肠左曲。" },
+    "function": { "en": "Slows heart rate, stimulates digestion and bronchoconstriction, and innervates the muscles of the pharynx and larynx.", "zh": "减慢心率，促进消化，使支气管收缩，并支配咽喉部肌肉。" },
+    "clinical": { "en": "Left recurrent laryngeal nerve, a branch, loops under the aortic arch and may be compressed by aortic aneurysm, causing hoarseness.", "zh": "其分支左喉返神经绕过主动脉弓，主动脉瘤压迫时可引起声音嘶哑。" }
+  },
+  {
+    "id": "femoral_nerve", "system": "nervous", "region": "lower_limb",
+    "names": { "la": "Nervus femoralis", "en": "Femoral nerve", "zh": "股神经" },
+    "summary": { "en": "Main nerve of the anterior thigh.", "zh": "大腿前部的主要神经。" },
+    "detail": { "en": "Arises from the lumbar plexus (L2 to L4), passes under the inguinal ligament lateral to the femoral artery, and supplies quadriceps, sartorius and pectineus. Its cutaneous branch, the saphenous nerve, supplies the medial leg.", "zh": "来自腰丛（L2~L4），经腹股沟韧带深面、股动脉外侧入股三角，支配股四头肌、缝匠肌和耻骨肌。皮支隐神经分布于小腿内侧皮肤。" },
+    "clinical": { "en": "Injury weakens knee extension and abolishes the patellar reflex.", "zh": "损伤后伸膝无力，膝跳反射消失。" },
+    "relations": { "origin": ["spinal_cord"] }
+  },
+  {
+    "id": "sciatic_nerve", "system": "nervous", "region": "lower_limb",
+    "names": { "la": "Nervus ischiadicus", "en": "Sciatic nerve", "zh": "坐骨神经" },
+    "summary": { "en": "The longest and thickest nerve in the body.", "zh": "人体最长最粗的神经。" },
+    "detail": { "en": "Formed from L4 to S3 of the sacral plexus, leaves the pelvis through the greater sciatic foramen below piriformis, descends through the posterior thigh and divides into the tibial and common fibular nerves, usually at the popliteal fossa.", "zh": "由骶丛L4~S3组成，经梨状肌下孔出骨盆，沿大腿后面下行，通常在腘窝上方分为胫神经和腓总神经。" },
+    "clinical": { "en": "Sciatica is pain along its course, often from lumbar disc herniation; a misplaced gluteal injection can damage it.", "zh": "坐骨神经痛沿其走行放射，常由腰椎间盘突出引起；臀部注射位置不当可损伤该神经。" },
+    "relations": { "origin": ["spinal_cord"] }
+  }
+]

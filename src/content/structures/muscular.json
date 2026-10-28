@@ -1,0 +1,112 @@
+[
+  {
+    "id": "sternocleidomastoid", "system": "muscular", "region": "head_neck",
+    "names": { "la": "Musculus sternocleidomastoideus", "en": "Sternocleidomastoid", "zh": "胸锁乳突肌" },
+    "summary": { "en": "Prominent neck muscle running obliquely from the sternum and clavicle to the mastoid process.", "zh": "颈部明显的肌肉，斜行于胸骨、锁骨与乳突之间。" },
+    "detail": { "en": "Acting on one side it tilts the head to the same side and rotates the face to the opposite side; acting together both sides flex the neck. It is the key landmark dividing the anterior and posterior cervical triangles. Innervated by the accessory nerve (CN XI).", "zh": "单侧收缩使头向同侧倾斜、面部转向对侧；两侧同时收缩使头前屈。它是划分颈前三角与颈后三角的标志。受副神经（CN XI）支配。" },
+    "clinical": { "en": "Congenital muscular torticollis results from fibrosis and shortening of this muscle.", "zh": "先天性肌性斜颈由该肌纤维化挛缩所致。" },
+    "relations": { "origin": ["sternum", "clavicle"], "insertion": ["cranium"] }
+  },
+  {
+    "id": "trapezius", "system": "muscular", "region": "back",
+    "names": { "la": "Musculus trapezius", "en": "Trapezius", "zh": "斜方肌" },
+    "summary": { "en": "Large triangular muscle covering the upper back and neck.", "zh": "覆盖项部和背上部的大块三角形肌。" },
+    "detail": { "en": "Arises from the occipital bone, nuchal ligament and spinous processes down to T12, and inserts on the clavicle, acromion and spine of the scapula. Supplied by the accessory nerve (CN XI).", "zh": "起自枕骨、项韧带及至T12的棘突，止于锁骨外侧份、肩峰和肩胛冈。受副神经（CN XI）支配。" },
+    "function": { "en": "Elevates, retracts and rotates the scapula; extends the neck.", "zh": "上提、后缩并旋转肩胛骨，伸颈。" },
+    "relations": { "origin": ["cranium", "vertebral_column"], "insertion": ["clavicle", "scapula"] }
+  },
+  {
+    "id": "deltoid", "system": "muscular", "region": "upper_limb",
+    "names": { "la": "Musculus deltoideus", "en": "Deltoid", "zh": "三角肌" },
+    "summary": { "en": "Rounded muscle that forms the contour of the shoulder.", "zh": "构成肩部圆隆外形的肌肉。" },
+    "detail": { "en": "Anterior, middle and posterior fibres arise from the clavicle, acromion and scapular spine and converge on the deltoid tuberosity of the humerus. Supplied by the axillary nerve.", "zh": "前、中、后三部分纤维分别起自锁骨、肩峰和肩胛冈，汇合止于肱骨三角肌粗隆。受腋神经支配。" },
+    "function": { "en": "Abduction of the arm (mainly the middle fibres, beyond the first 15 degrees).", "zh": "使肩关节外展（以中部纤维为主，外展15°之后发挥主要作用）。" },
+    "clinical": { "en": "Injury to the axillary nerve, for example after a surgical neck fracture, causes deltoid atrophy and a flattened shoulder.", "zh": "腋神经损伤（如外科颈骨折）可致三角肌萎缩，肩部呈“方肩”。" },
+    "relations": { "origin": ["clavicle", "scapula"], "insertion": ["humerus"], "innervation": ["brachial_plexus"] }
+  },
+  {
+    "id": "pectoralis_major", "system": "muscular", "region": "thorax",
+    "names": { "la": "Musculus pectoralis major", "en": "Pectoralis major", "zh": "胸大肌" },
+    "summary": { "en": "Large fan-shaped muscle of the upper chest.", "zh": "位于胸前壁上部的扇形大肌。" },
+    "detail": { "en": "Arises from the clavicle, sternum and upper costal cartilages and inserts on the crest of the greater tubercle of the humerus. Supplied by the medial and lateral pectoral nerves.", "zh": "起自锁骨内侧半、胸骨和上位肋软骨，止于肱骨大结节嵴。受胸内侧神经和胸外侧神经支配。" },
+    "function": { "en": "Adducts, medially rotates and flexes the arm.", "zh": "使肩关节内收、内旋和前屈。" },
+    "relations": { "origin": ["clavicle", "sternum", "ribs"], "insertion": ["humerus"], "innervation": ["brachial_plexus"] }
+  },
+  {
+    "id": "diaphragm", "system": "muscular", "region": "thorax",
+    "names": { "la": "Diaphragma", "en": "Diaphragm", "zh": "膈", "synonyms": ["thoracic diaphragm", "膈肌"] },
+    "summary": { "en": "Dome-shaped muscle that separates the thoracic cavity from the abdominal cavity.", "zh": "呈穹隆形，分隔胸腔与腹腔的肌肉。" },
+    "detail": { "en": "Muscle fibres arise from the sternum, lower six ribs and lumbar vertebrae and converge on a central tendon. Three openings transmit the inferior vena cava (T8), esophagus (T10) and aorta (T12). Supplied by the phrenic nerve (C3 to C5).", "zh": "肌纤维起自胸骨、下6对肋和腰椎，向中央腱汇集。三个裂孔分别通过下腔静脉（T8）、食管（T10）和主动脉（T12）。受膈神经（C3~C5）支配。" },
+    "function": { "en": "Principal muscle of inspiration: contraction flattens the dome and enlarges the thoracic cavity.", "zh": "最重要的吸气肌，收缩时穹隆下降，胸腔容积增大。" },
+    "clinical": { "en": "Irritation of the phrenic nerve causes hiccups; diaphragmatic hernia lets abdominal contents enter the chest.", "zh": "膈神经受刺激可致呃逆；膈疝使腹腔脏器进入胸腔。" },
+    "relations": { "origin": ["sternum", "ribs", "vertebral_column"], "innervation": ["phrenic_nerve"] }
+  },
+  {
+    "id": "latissimus_dorsi", "system": "muscular", "region": "back",
+    "names": { "la": "Musculus latissimus dorsi", "en": "Latissimus dorsi", "zh": "背阔肌" },
+    "summary": { "en": "Broad flat muscle covering the lower back.", "zh": "覆盖腰背部和胸部下份的阔大扁肌。" },
+    "detail": { "en": "Arises from spinous processes T7 to L5 via the thoracolumbar fascia, the iliac crest and the lower ribs, and inserts on the floor of the intertubercular groove of the humerus. Supplied by the thoracodorsal nerve.", "zh": "借胸腰筋膜起自T7~L5棘突、髂嵴和下位肋，止于肱骨结节间沟底。受胸背神经支配。" },
+    "function": { "en": "Extends, adducts and medially rotates the arm; important in climbing and pulling.", "zh": "使肩关节后伸、内收和内旋，在攀爬、拉的动作中作用显著。" },
+    "relations": { "origin": ["vertebral_column", "hip_bone", "ribs"], "insertion": ["humerus"], "innervation": ["brachial_plexus"] }
+  },
+  {
+    "id": "biceps_brachii", "system": "muscular", "region": "upper_limb",
+    "names": { "la": "Musculus biceps brachii", "en": "Biceps brachii", "zh": "肱二头肌" },
+    "summary": { "en": "Two-headed muscle on the front of the upper arm.", "zh": "位于上臂前面的双头肌。" },
+    "detail": { "en": "The long head arises from the supraglenoid tubercle and the short head from the coracoid process; both insert on the radial tuberosity. Supplied by the musculocutaneous nerve.", "zh": "长头起自盂上结节，短头起自喙突，共同止于桡骨粗隆。受肌皮神经支配。" },
+    "function": { "en": "Flexes the elbow and is the strongest supinator of the forearm.", "zh": "屈肘，并且是前臂最强的旋后肌。" },
+    "clinical": { "en": "Rupture of the long head tendon produces the “Popeye” deformity.", "zh": "长头肌腱断裂可出现“大力水手”畸形。" },
+    "relations": { "origin": ["scapula"], "insertion": ["radius"], "innervation": ["brachial_plexus"], "bloodSupply": ["brachial_artery"] }
+  },
+  {
+    "id": "triceps_brachii", "system": "muscular", "region": "upper_limb",
+    "names": { "la": "Musculus triceps brachii", "en": "Triceps brachii", "zh": "肱三头肌" },
+    "summary": { "en": "Three-headed muscle on the back of the upper arm.", "zh": "位于上臂后面的三头肌。" },
+    "detail": { "en": "Long head arises from the infraglenoid tubercle; lateral and medial heads arise from the posterior humerus. All insert on the olecranon of the ulna. Supplied by the radial nerve.", "zh": "长头起自盂下结节，外侧头与内侧头起自肱骨后面，三头合并止于尺骨鹰嘴。受桡神经支配。" },
+    "function": { "en": "Extends the elbow; the long head also extends and adducts the shoulder.", "zh": "伸肘，长头还可使肩关节后伸、内收。" },
+    "relations": { "origin": ["scapula", "humerus"], "insertion": ["ulna"], "innervation": ["brachial_plexus"], "bloodSupply": ["brachial_artery"] }
+  },
+  {
+    "id": "rectus_abdominis", "system": "muscular", "region": "abdomen",
+    "names": { "la": "Musculus rectus abdominis", "en": "Rectus abdominis", "zh": "腹直肌" },
+    "summary": { "en": "Paired vertical muscle of the anterior abdominal wall.", "zh": "位于腹前壁正中两侧的纵行肌。" },
+    "detail": { "en": "Runs from the pubic crest and symphysis up to the xiphoid process and the 5th to 7th costal cartilages, enclosed in the rectus sheath and divided by three tendinous intersections. The linea alba lies between the two muscles.", "zh": "自耻骨嵴和耻骨联合上行，止于剑突及第5~7肋软骨，包于腹直肌鞘内，被3~4条腱划分隔。两侧肌之间为白线。" },
+    "function": { "en": "Flexes the trunk and compresses the abdomen.", "zh": "屈曲躯干，增加腹内压。" },
+    "relations": { "origin": ["hip_bone"], "insertion": ["sternum", "ribs"] }
+  },
+  {
+    "id": "gluteus_maximus", "system": "muscular", "region": "pelvis",
+    "names": { "la": "Musculus gluteus maximus", "en": "Gluteus maximus", "zh": "臀大肌" },
+    "summary": { "en": "Largest and most superficial muscle of the buttock.", "zh": "臀部最大最浅层的肌肉。" },
+    "detail": { "en": "Arises from the posterior ilium, sacrum and coccyx and inserts on the gluteal tuberosity of the femur and the iliotibial tract. Supplied by the inferior gluteal nerve.", "zh": "起自髂骨后外侧面、骶骨和尾骨，止于股骨臀肌粗隆和髂胫束。受臀下神经支配。" },
+    "function": { "en": "Powerful extensor and lateral rotator of the hip; important for rising from sitting and climbing stairs.", "zh": "髋关节的强力伸肌和外旋肌，对起立和上楼梯十分重要。" },
+    "clinical": { "en": "The upper outer quadrant is the safe site for intramuscular injection because it avoids the sciatic nerve.", "zh": "臀部外上象限避开坐骨神经，是肌内注射的安全区。" },
+    "relations": { "origin": ["hip_bone", "vertebral_column"], "insertion": ["femur"] }
+  },
+  {
+    "id": "quadriceps_femoris", "system": "muscular", "region": "lower_limb",
+    "names": { "la": "Musculus quadriceps femoris", "en": "Quadriceps femoris", "zh": "股四头肌" },
+    "summary": { "en": "Four-headed muscle group on the front of the thigh.", "zh": "位于大腿前面的四头肌群。" },
+    "detail": { "en": "Comprises rectus femoris, vastus lateralis, vastus medialis and vastus intermedius. They share the quadriceps tendon, which encloses the patella and continues as the patellar ligament to the tibial tuberosity. Supplied by the femoral nerve.", "zh": "包括股直肌、股外侧肌、股内侧肌和股中间肌，共同以股四头肌腱包绕髌骨，延续为髌韧带止于胫骨粗隆。受股神经支配。" },
+    "function": { "en": "Extends the knee; rectus femoris also flexes the hip.", "zh": "伸膝，股直肌还可屈髋。" },
+    "relations": { "origin": ["hip_bone", "femur"], "insertion": ["tibia"], "innervation": ["femoral_nerve"], "bloodSupply": ["femoral_artery"] }
+  },
+  {
+    "id": "hamstrings", "system": "muscular", "region": "lower_limb",
+    "names": { "la": "Musculi ischiocrurales", "en": "Hamstrings", "zh": "腘绳肌", "synonyms": ["biceps femoris", "semitendinosus", "semimembranosus", "股二头肌", "半腱肌", "半膜肌"] },
+    "summary": { "en": "Group of three muscles on the back of the thigh.", "zh": "位于大腿后面的三块肌肉。" },
+    "detail": { "en": "Biceps femoris, semitendinosus and semimembranosus arise from the ischial tuberosity and insert on the tibia and fibula. They are supplied by the sciatic nerve.", "zh": "股二头肌、半腱肌和半膜肌均起自坐骨结节，分别止于腓骨头和胫骨上端。受坐骨神经支配。" },
+    "function": { "en": "Extend the hip and flex the knee.", "zh": "伸髋、屈膝。" },
+    "clinical": { "en": "Hamstring strains are common in sprinters, typically at the muscle-tendon junction.", "zh": "腘绳肌拉伤常见于短跑运动员，多发生在肌腱结合部。" },
+    "relations": { "origin": ["hip_bone"], "insertion": ["tibia", "fibula"], "innervation": ["sciatic_nerve"] }
+  },
+  {
+    "id": "gastrocnemius", "system": "muscular", "region": "lower_limb",
+    "names": { "la": "Musculus gastrocnemius", "en": "Gastrocnemius", "zh": "腓肠肌" },
+    "summary": { "en": "Two-headed superficial muscle forming the bulk of the calf.", "zh": "构成小腿肚的浅层双头肌。" },
+    "detail": { "en": "Medial and lateral heads arise from the femoral condyles and join the soleus tendon to form the calcaneal (Achilles) tendon, which inserts on the calcaneus. Supplied by the tibial nerve, a branch of the sciatic nerve.", "zh": "内、外侧头起自股骨内、外侧髁，与比目鱼肌腱合成跟腱，止于跟骨结节。受胫神经（坐骨神经的分支）支配。" },
+    "function": { "en": "Plantarflexes the foot and assists knee flexion.", "zh": "跖屈踝关节，并协助屈膝。" },
+    "clinical": { "en": "Achilles tendon rupture is tested with the Thompson squeeze test.", "zh": "跟腱断裂可用腓肠肌挤压（Thompson）试验检查。" },
+    "relations": { "origin": ["femur"], "innervation": ["sciatic_nerve"] }
+  }
+]

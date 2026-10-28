@@ -1,0 +1,141 @@
+{
+  "systems": [
+    {
+      "out": "skeletal",
+      "source": "skeletal",
+      "ratio": 0.2,
+      "error": 0.01,
+      "structures": {
+        "cranium": ["Cranium.g"],
+        "mandible": ["Mandible"],
+        "vertebral_column": ["Vertebral column.g"],
+        "sternum": ["Sternum.g"],
+        "ribs": ["Ribs.g"],
+        "clavicle": ["Clavicle.r", "Clavicle.l"],
+        "scapula": ["Scapula.r", "Scapula.l"],
+        "humerus": ["Humerus.r", "Humerus.l"],
+        "radius": ["Radius.r", "Radius.l"],
+        "ulna": ["Ulna.r", "Ulna.l"],
+        "hip_bone": ["Hip bone.r", "Hip bone.l"],
+        "femur": ["Femur.r", "Femur.l"],
+        "tibia": ["Tibia.r", "Tibia.l"],
+        "fibula": ["Fibula.r", "Fibula.l"],
+        "larynx": ["Laryngeal cartilages.g"]
+      }
+    },
+    {
+      "out": "muscular",
+      "source": "muscular",
+      "ratio": 0.12,
+      "error": 0.01,
+      "structures": {
+        "sternocleidomastoid": ["Sternocleidomastoid muscle.r", "Sternocleidomastoid muscle.l"],
+        "trapezius": ["Trapezius muscle.g"],
+        "deltoid": ["Deltoid muscle.g"],
+        "pectoralis_major": ["Pectoralis major muscle.g"],
+        "diaphragm": ["Diaphragm"],
+        "latissimus_dorsi": ["Latissimus dorsi muscle.r", "Latissimus dorsi muscle.l"],
+        "biceps_brachii": ["Biceps brachii muscle.g"],
+        "triceps_brachii": ["Triceps brachii muscle.g"],
+        "rectus_abdominis": ["Rectus abdominis muscle.r", "Rectus abdominis muscle.l"],
+        "gluteus_maximus": ["Gluteus maximus muscle.r", "Gluteus maximus muscle.l"],
+        "quadriceps_femoris": [
+          "Rectus femoris muscle.r", "Rectus femoris muscle.l",
+          "Vastus lateralis muscle.r", "Vastus lateralis muscle.l",
+          "Vastus medialis muscle.r", "Vastus medialis muscle.l",
+          "Vastus intermedius muscle.r", "Vastus intermedius muscle.l"
+        ],
+        "hamstrings": [
+          "Long head of biceps femoris.r", "Long head of biceps femoris.l",
+          "Short head of biceps femoris.r", "Short head of biceps femoris.l",
+          "Semitendinosus muscle.r", "Semitendinosus muscle.l",
+          "Semimembranosus muscle.r", "Semimembranosus muscle.l"
+        ],
+        "gastrocnemius": [
+          "Medial head of gastrocnemius.r", "Medial head of gastrocnemius.l",
+          "Lateral head of gastrocnemius.r", "Lateral head of gastrocnemius.l"
+        ]
+      }
+    },
+    {
+      "out": "cardiovascular",
+      "source": "cardiovascular",
+      "ratio": 0.3,
+      "error": 0.01,
+      "structures": {
+        "heart": ["Heart.g"],
+        "aorta": ["=Ascending aorta", "=Aortic arch", "=Thoracic aorta", "=Abdominal aorta"],
+        "common_carotid_artery": ["=Left common carotid artery", "=Right common carotid artery"],
+        "brachial_artery": ["=Brachial artery.r", "=Brachial artery.l"],
+        "femoral_artery": ["=Femoral artery.r", "=Femoral artery.l"],
+        "superior_vena_cava": ["=Superior vena cava"],
+        "inferior_vena_cava": ["=Inferior vena cava (thoracic part)", "=Inferior vena cava (abdominal part)"],
+        "great_saphenous_vein": ["=Great saphenous vein.r", "=Great saphenous vein.l"]
+      }
+    },
+    {
+      "out": "nervous",
+      "source": "nervous",
+      "ratio": 0.05,
+      "error": 0.02,
+      "structures": {
+        "brain": ["Cerebrum.g", "Brainstem.g"],
+        "cerebellum": ["Cerebellum.g"],
+        "spinal_cord": ["Spinal cord.g"],
+        "brachial_plexus": ["Brachial plexus.g"],
+        "vagus_nerve": ["Vagus nerve (X).r", "Vagus nerve (X).l"],
+        "femoral_nerve": ["Femoral nerve.r", "Femoral nerve.l"],
+        "sciatic_nerve": ["Sciatic nerve.r", "Sciatic nerve.l"]
+      }
+    },
+    {
+      "out": "visceral",
+      "source": "visceral",
+      "ratio": 0.15,
+      "error": 0.01,
+      "structures": {
+        "trachea": ["=Trachea"],
+        "bronchi": ["Bronchi.g"],
+        "right_lung": ["Right lung.g"],
+        "left_lung": ["Left lung.g"],
+        "esophagus": ["Oesophagus"],
+        "stomach": ["Stomach"],
+        "liver": ["Liver"],
+        "gallbladder": ["Gallbladder"],
+        "pancreas": ["Pancreas"],
+        "small_intestine": ["Small intestine.g"],
+        "large_intestine": ["Colon.g"],
+        "kidneys": ["Kidney.r", "Kidney.l"],
+        "ureters": ["Ureter.r", "Ureter.l"],
+        "urinary_bladder": ["Urinary bladder"],
+        "prostate": ["Prostate"],
+        "testes": ["Testis.r", "Testis.l"],
+        "pituitary_gland": ["Hypophysis.g"],
+        "thyroid_gland": ["Thyroid gland"],
+        "adrenal_glands": ["Suprarenal gland.r", "Suprarenal gland.l"]
+      }
+    },
+    {
+      "out": "lymphoid",
+      "source": "lymphoidorgans",
+      "ratio": 0.4,
+      "error": 0.01,
+      "structures": {
+        "spleen": ["Spleen"],
+        "thymus": ["Thymus.g"]
+      }
+    },
+    {
+      "out": "skin",
+      "source": "regions_of_human_body",
+      "ratio": 0.3,
+      "error": 0.01,
+      "structures": {
+        "skin": [
+          "Regions of head.g", "Regions of neck.g", "Regions of thorax.g", "Regions of abdomen.g",
+          "Regions of back.g", "Regions of perineum.g", "Regions of upper limb.g", "Regions of lower limb.g"
+        ]
+      }
+    }
+  ]
+}

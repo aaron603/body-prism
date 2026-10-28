@@ -1,0 +1,10 @@
+[
+  {
+    "id": "skin", "system": "integumentary", "region": "whole_body",
+    "names": { "la": "Cutis", "en": "Skin", "zh": "皮肤", "synonyms": ["integument", "皮"] },
+    "summary": { "en": "The largest organ of the body, covering the whole external surface.", "zh": "人体最大的器官，覆盖整个体表。" },
+    "detail": { "en": "Adult skin covers about 1.5 to 2 m². It has the epidermis (keratinised stratified squamous epithelium), the dermis (papillary and reticular layers) and the underlying hypodermis. Appendages: hair, nails, sebaceous and sweat glands.", "zh": "成人皮肤面积约1.5~2 m²，由表皮（角化的复层扁平上皮）、真皮（乳头层和网织层）和皮下组织组成。附属器有毛发、指（趾）甲、皮脂腺和汗腺。" },
+    "function": { "en": "Barrier against water loss and pathogens, thermoregulation, sensation, vitamin D synthesis and UV protection.", "zh": "屏障作用（防止水分丢失和病原体入侵），调节体温，感觉，合成维生素D，并防紫外线。" },
+    "clinical": { "en": "Melanoma is the most dangerous skin cancer; the ABCDE rule helps in screening.", "zh": "黑色素瘤是最危险的皮肤癌，可用ABCDE法则筛查。" }
+  }
+]

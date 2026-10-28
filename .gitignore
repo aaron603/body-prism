@@ -1,0 +1,10 @@
+node_modules
+dist
+*.local
+.DS_Store
+pipeline/build
+pipeline/source
+.venv
+__pycache__
+test-results
+playwright-report

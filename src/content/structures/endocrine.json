@@ -1,0 +1,25 @@
+[
+  {
+    "id": "pituitary_gland", "system": "endocrine", "region": "head_neck",
+    "names": { "la": "Hypophysis", "en": "Pituitary gland", "zh": "垂体", "synonyms": ["hypophysis cerebri"] },
+    "summary": { "en": "Pea-sized “master gland” hanging from the base of the brain.", "zh": "豌豆大小的“内分泌之王”，悬于脑底。" },
+    "detail": { "en": "Sits in the sella turcica of the sphenoid bone, connected to the hypothalamus by the infundibulum. The anterior lobe (adenohypophysis) secretes GH, TSH, ACTH, FSH, LH and prolactin; the posterior lobe (neurohypophysis) releases oxytocin and ADH made in the hypothalamus.", "zh": "位于蝶骨垂体窝内，借漏斗与下丘脑相连。前叶（腺垂体）分泌生长激素、促甲状腺激素、促肾上腺皮质激素、卵泡刺激素、黄体生成素和催乳素；后叶（神经垂体）释放下丘脑合成的缩宫素和抗利尿激素。" },
+    "clinical": { "en": "Pituitary tumours may compress the optic chiasm and cause bitemporal hemianopia.", "zh": "垂体肿瘤可压迫视交叉，引起双颞侧偏盲。" }
+  },
+  {
+    "id": "thyroid_gland", "system": "endocrine", "region": "head_neck",
+    "names": { "la": "Glandula thyroidea", "en": "Thyroid gland", "zh": "甲状腺" },
+    "summary": { "en": "Butterfly-shaped gland in the front of the neck.", "zh": "位于颈前部的蝴蝶形腺体。" },
+    "detail": { "en": "Two lateral lobes joined by an isthmus lying across the 2nd to 4th tracheal rings; it moves upward on swallowing. The recurrent laryngeal nerve runs close to its posterior surface. Four parathyroid glands lie on its posterior surface.", "zh": "由左、右侧叶和连接两叶的甲状腺峡组成，峡部位于第2~4气管软骨环前方，吞咽时随喉上下移动。喉返神经紧贴其后面走行；甲状旁腺有4个，位于其后面。" },
+    "function": { "en": "Secretes T3 and T4 to regulate metabolic rate, and calcitonin to lower blood calcium.", "zh": "分泌T3和T4调节基础代谢率，分泌降钙素降低血钙。" },
+    "clinical": { "en": "Thyroidectomy risks injury to the recurrent laryngeal nerve (hoarseness) and removal of the parathyroids (hypocalcaemia).", "zh": "甲状腺切除术有损伤喉返神经（声嘶）和误切甲状旁腺（低钙血症）的风险。" },
+    "relations": { "bloodSupply": ["common_carotid_artery"] }
+  },
+  {
+    "id": "adrenal_glands", "system": "endocrine", "region": "abdomen",
+    "names": { "la": "Glandulae suprarenales", "en": "Adrenal glands", "zh": "肾上腺", "synonyms": ["suprarenal glands", "adrenal gland"] },
+    "summary": { "en": "Paired glands capping the upper pole of each kidney.", "zh": "成对的腺体，位于两肾上极。" },
+    "detail": { "en": "The right gland is pyramidal and the left is crescent-shaped. The cortex has three zones (glomerulosa, fasciculata, reticularis: “GFR”) producing aldosterone, cortisol and androgens; the medulla secretes adrenaline and noradrenaline.", "zh": "右侧呈三角形，左侧呈半月形。皮质由外向内分球状带、束状带和网状带，分别分泌醛固酮、皮质醇和性激素；髓质分泌肾上腺素和去甲肾上腺素。" },
+    "clinical": { "en": "Pheochromocytoma of the medulla causes paroxysmal hypertension, sweating and palpitations.", "zh": "髓质嗜铬细胞瘤可引起阵发性高血压、出汗和心悸。" }
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "heart", "system": "cardiovascular", "region": "thorax",
+    "names": { "la": "Cor", "en": "Heart", "zh": "心" },
+    "summary": { "en": "Four-chambered muscular pump that drives blood through the pulmonary and systemic circuits.", "zh": "具有四个腔的肌性泵，推动血液流经肺循环和体循环。" },
+    "detail": { "en": "Lies in the middle mediastinum within the pericardium, about two thirds to the left of the midline. It has right and left atria and ventricles separated by septa. Valves: tricuspid, pulmonary, mitral (bicuspid) and aortic. The apex points to the left at the 5th intercostal space in the midclavicular line.", "zh": "位于中纵隔心包内，约2/3位于正中线左侧。有左、右心房和左、右心室，由房间隔和室间隔分开。四个瓣膜：三尖瓣、肺动脉瓣、二尖瓣和主动脉瓣。心尖朝向左前下方，体表投影在左侧第5肋间隙锁骨中线内侧1~2 cm。" },
+    "function": { "en": "Pumps about 5 litres of blood per minute at rest; the right side sends blood to the lungs, the left side to the body.", "zh": "静息时每分钟泵血约5升；右心将血送入肺，左心将血送往全身。" },
+    "clinical": { "en": "Occlusion of the coronary arteries causes myocardial infarction; the left anterior descending artery is most commonly involved.", "zh": "冠状动脉阻塞可引起心肌梗死，以左前降支最常受累。" }
+  },
+  {
+    "id": "aorta", "system": "cardiovascular", "region": "whole_body",
+    "names": { "la": "Aorta", "en": "Aorta", "zh": "主动脉" },
+    "summary": { "en": "The largest artery, carrying oxygenated blood from the left ventricle to the body.", "zh": "体内最粗大的动脉，将左心室的含氧血输送至全身。" },
+    "detail": { "en": "Divided into the ascending aorta, aortic arch (giving off the brachiocephalic trunk, left common carotid and left subclavian arteries), descending thoracic aorta, and abdominal aorta, which bifurcates at L4 into the common iliac arteries.", "zh": "分为升主动脉、主动脉弓（发出头臂干、左颈总动脉和左锁骨下动脉）、胸主动脉和腹主动脉，腹主动脉在L4水平分为左、右髂总动脉。" },
+    "clinical": { "en": "Abdominal aortic aneurysm is typically defined as a diameter over 3 cm; rupture is often fatal.", "zh": "腹主动脉瘤通常指直径超过3 cm，破裂常致命。" },
+    "relations": { "origin": ["heart"] }
+  },
+  {
+    "id": "common_carotid_artery", "system": "cardiovascular", "region": "head_neck",
+    "names": { "la": "Arteria carotis communis", "en": "Common carotid artery", "zh": "颈总动脉" },
+    "summary": { "en": "Main artery of the neck supplying the head.", "zh": "颈部的主要动脉，为头部供血。" },
+    "detail": { "en": "Ascends within the carotid sheath beside the internal jugular vein and vagus nerve, and divides at the upper border of the thyroid cartilage (C3/C4) into the internal carotid, which supplies the brain, and the external carotid, which supplies the face and neck.", "zh": "在颈动脉鞘内与颈内静脉、迷走神经并行上升，约平甲状软骨上缘（C3/C4）分为颈内动脉（供应脑）和颈外动脉（供应面部和颈部）。" },
+    "clinical": { "en": "The carotid pulse can be palpated just in front of sternocleidomastoid; atherosclerotic stenosis at the bifurcation is a cause of stroke.", "zh": "可在胸锁乳突肌前缘触及颈动脉搏动；分叉处的动脉粥样硬化狭窄是脑卒中的原因之一。" },
+    "relations": { "origin": ["aorta"], "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "brachial_artery", "system": "cardiovascular", "region": "upper_limb",
+    "names": { "la": "Arteria brachialis", "en": "Brachial artery", "zh": "肱动脉" },
+    "summary": { "en": "Main artery of the upper arm.", "zh": "上臂的主要动脉。" },
+    "detail": { "en": "Continues from the axillary artery at the lower border of teres major, runs along the medial side of biceps, and divides in the cubital fossa into the radial and ulnar arteries.", "zh": "在大圆肌下缘续于腋动脉，沿肱二头肌内侧下行，在肘窝分为桡动脉和尺动脉。" },
+    "clinical": { "en": "Blood pressure is measured by auscultating this artery in the cubital fossa.", "zh": "测量血压时在肘窝处听诊此动脉。" }
+  },
+  {
+    "id": "femoral_artery", "system": "cardiovascular", "region": "lower_limb",
+    "names": { "la": "Arteria femoralis", "en": "Femoral artery", "zh": "股动脉" },
+    "summary": { "en": "Main artery of the thigh.", "zh": "大腿的主要动脉。" },
+    "detail": { "en": "Continues from the external iliac artery beneath the inguinal ligament at the midinguinal point, runs in the femoral triangle, then passes through the adductor canal to become the popliteal artery. Gives off the profunda femoris artery.", "zh": "在腹股沟韧带中点深面续于髂外动脉，经股三角，穿过收肌管后移行为腘动脉，并发出股深动脉。" },
+    "clinical": { "en": "Its pulse is felt at the midinguinal point; it is a common access site for cardiac catheterisation.", "zh": "在腹股沟中点可触及搏动，是心导管术的常用穿刺部位。" },
+    "relations": { "origin": ["aorta"] }
+  },
+  {
+    "id": "superior_vena_cava", "system": "cardiovascular", "region": "thorax",
+    "names": { "la": "Vena cava superior", "en": "Superior vena cava", "zh": "上腔静脉" },
+    "summary": { "en": "Large vein returning blood from the head, neck, arms and chest to the right atrium.", "zh": "收集头颈、上肢和胸部静脉血并注入右心房的大静脉。" },
+    "detail": { "en": "Formed by the union of the two brachiocephalic veins behind the first right costal cartilage, about 7 cm long, and enters the right atrium at the level of the 3rd costal cartilage.", "zh": "由左、右头臂静脉在右侧第1肋软骨后方汇合而成，长约7 cm，在第3肋软骨水平注入右心房。" },
+    "clinical": { "en": "Obstruction by mediastinal tumours causes superior vena cava syndrome with facial swelling.", "zh": "纵隔肿瘤压迫可致上腔静脉综合征，表现为面颈部肿胀。" },
+    "relations": { "origin": ["heart"] }
+  },
+  {
+    "id": "inferior_vena_cava", "system": "cardiovascular", "region": "abdomen",
+    "names": { "la": "Vena cava inferior", "en": "Inferior vena cava", "zh": "下腔静脉" },
+    "summary": { "en": "Largest vein of the body, returning blood from the lower body to the right atrium.", "zh": "体内最大的静脉，收集下半身静脉血回流入右心房。" },
+    "detail": { "en": "Formed by the common iliac veins at L5, ascends on the right of the aorta, grooves the posterior surface of the liver and passes through the diaphragm at T8 to reach the right atrium.", "zh": "由左、右髂总静脉在L5处汇合而成，在腹主动脉右侧上行，经肝后面的腔静脉沟，穿膈的腔静脉孔（T8）入右心房。" },
+    "relations": { "origin": ["heart"] }
+  },
+  {
+    "id": "great_saphenous_vein", "system": "cardiovascular", "region": "lower_limb",
+    "names": { "la": "Vena saphena magna", "en": "Great saphenous vein", "zh": "大隐静脉", "synonyms": ["long saphenous vein"] },
+    "summary": { "en": "Longest superficial vein of the lower limb.", "zh": "下肢最长的浅静脉。" },
+    "detail": { "en": "Begins at the medial end of the dorsal venous arch of the foot, ascends in front of the medial malleolus and behind the knee's medial condyle, and drains into the femoral vein at the saphenous opening.", "zh": "起自足背静脉弓内侧端，经内踝前方沿小腿内侧上行，绕股骨内侧髁后方，在隐静脉裂孔处注入股静脉。" },
+    "clinical": { "en": "Incompetent valves lead to varicose veins; the vessel is commonly harvested for coronary artery bypass grafts.", "zh": "瓣膜功能不全可致下肢静脉曲张；该静脉也常被取作冠状动脉搭桥的移植血管。" }
+  }
+]

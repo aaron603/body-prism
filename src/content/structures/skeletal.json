@@ -1,0 +1,108 @@
+[
+  {
+    "id": "cranium", "system": "skeletal", "region": "head_neck",
+    "names": { "la": "Cranium", "en": "Skull", "zh": "颅", "synonyms": ["颅骨", "cranium"] },
+    "summary": { "en": "Bony framework of the head that encloses the brain and supports the face.", "zh": "构成头部骨性支架，容纳并保护脑，同时支撑面部。" },
+    "detail": { "en": "Composed of the neurocranium (frontal, 2 parietal, 2 temporal, occipital, sphenoid and ethmoid bones) and the viscerocranium (facial bones). Bones are joined by immovable sutures; the pterion is where frontal, parietal, temporal and sphenoid bones meet.", "zh": "由脑颅（额骨、顶骨2、颞骨2、枕骨、蝶骨、筛骨）和面颅组成，各骨之间以缝连结，不能活动。翼点是额、顶、颞、蝶骨交会处。" },
+    "function": { "en": "Protects the brain and sense organs; provides attachment for masticatory and neck muscles.", "zh": "保护脑和感觉器官，为咀嚼肌和颈肌提供附着。" },
+    "clinical": { "en": "A blow to the thin pterion can tear the anterior branch of the middle meningeal artery, causing an epidural hematoma.", "zh": "翼点处骨质薄弱，外伤可撕裂脑膜中动脉前支，引起硬膜外血肿。" }
+  },
+  {
+    "id": "mandible", "system": "skeletal", "region": "head_neck",
+    "names": { "la": "Mandibula", "en": "Mandible", "zh": "下颌骨", "synonyms": ["jaw", "jawbone"] },
+    "summary": { "en": "The lower jaw, the only freely movable bone of the skull.", "zh": "下颌，是颅骨中唯一能自由活动的骨。" },
+    "detail": { "en": "Consists of a horizontal body carrying the lower teeth and two vertical rami. Each ramus ends in a condylar process, which forms the temporomandibular joint with the temporal bone, and a coronoid process for temporalis.", "zh": "由水平的下颌体（载下牙）和两侧垂直的下颌支组成。下颌支上端有髁突（与颞骨构成颞下颌关节）和冠突（颞肌附着）。" },
+    "function": { "en": "Mastication and speech; articulates with the cranium at the TMJ.", "zh": "参与咀嚼和言语，通过颞下颌关节与颅相连。" },
+    "clinical": { "en": "Fractures often occur at the angle, the mental foramen region and the condylar neck, and are frequently multiple.", "zh": "骨折好发于下颌角、颏孔区和髁突颈，常为多处骨折。" }
+  },
+  {
+    "id": "vertebral_column", "system": "skeletal", "region": "back",
+    "names": { "la": "Columna vertebralis", "en": "Vertebral column", "zh": "脊柱", "synonyms": ["spine", "backbone", "脊椎"] },
+    "summary": { "en": "The axial support of the trunk, made of 24 separate vertebrae, the sacrum and the coccyx.", "zh": "躯干的中轴支柱，由24块分离椎骨、骶骨和尾骨构成。" },
+    "detail": { "en": "7 cervical, 12 thoracic and 5 lumbar vertebrae, plus the fused sacrum and coccyx. Intervertebral discs lie between adjacent vertebral bodies. In the sagittal plane it has four curves: cervical lordosis, thoracic kyphosis, lumbar lordosis and sacral kyphosis.", "zh": "颈椎7块、胸椎12块、腰椎5块，加上骶骨和尾骨。相邻椎体之间有椎间盘。矢状面上有四个生理弯曲：颈曲前凸、胸曲后凸、腰曲前凸、骶曲后凸。" },
+    "function": { "en": "Supports body weight, protects the spinal cord within the vertebral canal, and allows trunk movement.", "zh": "支持体重，椎管内保护脊髓，并允许躯干运动。" },
+    "clinical": { "en": "Lumbar disc herniation most often involves L4/L5 and L5/S1; abnormal lateral curvature is scoliosis.", "zh": "腰椎间盘突出最常见于L4/L5和L5/S1；脊柱侧向弯曲异常称为脊柱侧凸。" }
+  },
+  {
+    "id": "sternum", "system": "skeletal", "region": "thorax",
+    "names": { "la": "Sternum", "en": "Sternum", "zh": "胸骨", "synonyms": ["breastbone"] },
+    "summary": { "en": "Flat midline bone forming the front of the thoracic cage.", "zh": "位于胸前正中的扁骨，构成胸廓前壁。" },
+    "detail": { "en": "Has three parts: manubrium, body and xiphoid process. The sternal angle, where manubrium meets body, lies at the level of the 2nd costal cartilage and the T4/T5 disc.", "zh": "分胸骨柄、胸骨体和剑突三部分。胸骨柄与胸骨体连接处形成胸骨角，平对第2肋软骨和T4/T5椎间盘水平。" },
+    "function": { "en": "Anchors the upper seven pairs of ribs and protects the heart and great vessels.", "zh": "连接上7对肋，保护心脏和大血管。" },
+    "clinical": { "en": "Rich in red marrow, so it is a site for sternal bone marrow aspiration.", "zh": "骨髓腔内含红骨髓，是骨髓穿刺的常用部位。" }
+  },
+  {
+    "id": "ribs", "system": "skeletal", "region": "thorax",
+    "names": { "la": "Costae", "en": "Ribs", "zh": "肋", "synonyms": ["肋骨", "rib cage"] },
+    "summary": { "en": "Twelve pairs of curved bones that form the sides of the thoracic cage.", "zh": "共12对弯曲的骨，构成胸廓侧壁。" },
+    "detail": { "en": "Ribs 1 to 7 are true ribs attached directly to the sternum by costal cartilage; 8 to 10 are false ribs joined via the cartilage above; 11 and 12 are floating ribs with no anterior attachment. A typical rib has a head, neck, tubercle and shaft with a costal groove carrying the intercostal neurovascular bundle.", "zh": "第1~7肋为真肋，经肋软骨直接连胸骨；第8~10肋为假肋，借上位肋软骨间接连胸骨；第11、12肋为浮肋，前端游离。典型肋有肋头、肋颈、肋结节和肋体，肋沟内走行肋间血管神经。" },
+    "function": { "en": "Protect thoracic organs and move during breathing.", "zh": "保护胸腔脏器，参与呼吸运动。" },
+    "clinical": { "en": "Fractures are most common at ribs 4 to 9; multiple segmental fractures can cause flail chest.", "zh": "骨折多见于第4~9肋；多根多处骨折可形成连枷胸。" }
+  },
+  {
+    "id": "clavicle", "system": "skeletal", "region": "upper_limb",
+    "names": { "la": "Clavicula", "en": "Clavicle", "zh": "锁骨", "synonyms": ["collarbone"] },
+    "summary": { "en": "S-shaped long bone that links the upper limb to the trunk.", "zh": "呈“S”形的长骨，连接上肢与躯干。" },
+    "detail": { "en": "Medial end articulates with the sternum at the sternoclavicular joint; lateral end articulates with the acromion of the scapula at the acromioclavicular joint.", "zh": "内侧端与胸骨柄构成胸锁关节，外侧端与肩胛骨肩峰构成肩锁关节。" },
+    "function": { "en": "Acts as a strut keeping the shoulder away from the thorax and transmits forces from the arm to the axial skeleton.", "zh": "起支撑作用，使肩远离胸廓，并将上肢的力传向中轴骨。" },
+    "clinical": { "en": "One of the most frequently fractured bones; the junction of the middle and lateral thirds is the weakest point.", "zh": "是最易骨折的骨之一，中、外1/3交界处最薄弱。" }
+  },
+  {
+    "id": "scapula", "system": "skeletal", "region": "upper_limb",
+    "names": { "la": "Scapula", "en": "Scapula", "zh": "肩胛骨", "synonyms": ["shoulder blade"] },
+    "summary": { "en": "Flat triangular bone on the upper back that forms the shoulder socket.", "zh": "位于背部上方的三角形扁骨，构成肩关节的关节盂。" },
+    "detail": { "en": "Lies over ribs 2 to 7. Features the spine ending in the acromion, the coracoid process, and the glenoid cavity that receives the head of the humerus.", "zh": "贴附于第2~7肋后方。主要结构有肩胛冈及其外侧端的肩峰、喙突，以及容纳肱骨头的关节盂。" },
+    "function": { "en": "Provides a mobile base for the arm and attachment for 17 muscles.", "zh": "为上肢提供活动的基底，并为多块肌肉提供附着。" }
+  },
+  {
+    "id": "humerus", "system": "skeletal", "region": "upper_limb",
+    "names": { "la": "Humerus", "en": "Humerus", "zh": "肱骨", "synonyms": ["upper arm bone"] },
+    "summary": { "en": "Long bone of the upper arm.", "zh": "上臂的长骨。" },
+    "detail": { "en": "The proximal end has the head, anatomical neck, greater and lesser tubercles and the surgical neck. The shaft bears the deltoid tuberosity and the radial groove. The distal end forms the capitulum and trochlea.", "zh": "上端有肱骨头、解剖颈、大结节、小结节和外科颈；体部有三角肌粗隆和桡神经沟；下端有肱骨小头和肱骨滑车。" },
+    "function": { "en": "Forms the shoulder joint with the scapula and the elbow joint with the radius and ulna.", "zh": "与肩胛骨构成肩关节，与桡、尺骨构成肘关节。" },
+    "clinical": { "en": "Surgical neck fracture may injure the axillary nerve; shaft fracture may injure the radial nerve; supracondylar fracture in children may injure the brachial artery and median nerve.", "zh": "外科颈骨折可伤及腋神经；肱骨干骨折可伤及桡神经；儿童肱骨髁上骨折可伤及肱动脉和正中神经。" }
+  },
+  {
+    "id": "radius", "system": "skeletal", "region": "upper_limb",
+    "names": { "la": "Radius", "en": "Radius", "zh": "桡骨" },
+    "summary": { "en": "Lateral (thumb side) bone of the forearm.", "zh": "前臂外侧（拇指侧）的长骨。" },
+    "detail": { "en": "The head articulates with the humerus and ulna; the distal end is broad and forms most of the wrist joint with the carpal bones. It rotates around the ulna in pronation and supination.", "zh": "上端桡骨头与肱骨、尺骨相关节；下端宽大，与腕骨构成腕关节的主要部分。前臂旋前旋后时桡骨绕尺骨旋转。" },
+    "clinical": { "en": "Distal radius fracture after a fall on an outstretched hand (Colles fracture) is very common.", "zh": "手掌撑地跌倒后桡骨远端骨折（Colles骨折）十分常见。" }
+  },
+  {
+    "id": "ulna", "system": "skeletal", "region": "upper_limb",
+    "names": { "la": "Ulna", "en": "Ulna", "zh": "尺骨" },
+    "summary": { "en": "Medial (little finger side) bone of the forearm.", "zh": "前臂内侧（小指侧）的长骨。" },
+    "detail": { "en": "The proximal end has the olecranon and coronoid process, which grip the trochlea of the humerus at the elbow. The distal head articulates with the radius.", "zh": "上端有鹰嘴和冠突，共同包绕肱骨滑车构成肘关节；下端尺骨头与桡骨相关节。" },
+    "function": { "en": "Forms the main hinge of the elbow joint.", "zh": "构成肘关节的主要屈伸关节面。" }
+  },
+  {
+    "id": "hip_bone", "system": "skeletal", "region": "pelvis",
+    "names": { "la": "Os coxae", "en": "Hip bone", "zh": "髋骨", "synonyms": ["pelvic bone", "innominate bone"] },
+    "summary": { "en": "Large irregular bone formed by the fusion of the ilium, ischium and pubis.", "zh": "由髂骨、坐骨和耻骨融合而成的不规则骨。" },
+    "detail": { "en": "The three parts meet at the acetabulum, the socket for the femoral head. The two hip bones join at the pubic symphysis in front and with the sacrum behind to form the pelvic girdle.", "zh": "三骨在髋臼处会合，髋臼容纳股骨头。两侧髋骨在前方借耻骨联合相连，后方与骶骨构成骨盆。" },
+    "function": { "en": "Transfers body weight to the legs and supports pelvic organs.", "zh": "将体重传向下肢，并承托盆腔脏器。" },
+    "clinical": { "en": "Pelvic ring fractures can cause major hemorrhage from the pelvic venous plexus.", "zh": "骨盆环骨折可因盆腔静脉丛损伤导致大出血。" }
+  },
+  {
+    "id": "femur", "system": "skeletal", "region": "lower_limb",
+    "names": { "la": "Femur", "en": "Femur", "zh": "股骨", "synonyms": ["thigh bone"] },
+    "summary": { "en": "The longest and strongest bone of the body.", "zh": "人体最长最粗壮的长骨。" },
+    "detail": { "en": "The head fits into the acetabulum and is connected to the shaft by the neck, angled about 125 degrees. The greater and lesser trochanters serve muscle attachments; the distal condyles articulate with the tibia and patella.", "zh": "股骨头嵌入髋臼，经股骨颈（颈干角约125°）与体部相连。大、小转子供肌肉附着；下端内、外侧髁与胫骨和髌骨相关节。" },
+    "clinical": { "en": "Femoral neck fracture in older adults risks avascular necrosis of the head because of a vulnerable blood supply.", "zh": "老年人股骨颈骨折因血供薄弱，易发生股骨头缺血性坏死。" }
+  },
+  {
+    "id": "tibia", "system": "skeletal", "region": "lower_limb",
+    "names": { "la": "Tibia", "en": "Tibia", "zh": "胫骨", "synonyms": ["shin bone"] },
+    "summary": { "en": "Medial and weight-bearing bone of the leg.", "zh": "小腿内侧的主要承重骨。" },
+    "detail": { "en": "The proximal end has medial and lateral condyles and the tibial tuberosity for the patellar ligament. The anterior border lies just under the skin. The distal end forms the medial malleolus.", "zh": "上端有内、外侧髁，前方的胫骨粗隆是髌韧带止点；前缘位置表浅，紧贴皮下；下端内侧突起为内踝。" },
+    "clinical": { "en": "Being subcutaneous, tibial shaft fractures are commonly open fractures.", "zh": "因位置表浅，胫骨干骨折常为开放性骨折。" }
+  },
+  {
+    "id": "fibula", "system": "skeletal", "region": "lower_limb",
+    "names": { "la": "Fibula", "en": "Fibula", "zh": "腓骨" },
+    "summary": { "en": "Slender lateral bone of the leg.", "zh": "小腿外侧的细长骨。" },
+    "detail": { "en": "Bears little weight but gives attachment to muscles. The head articulates with the tibia below the knee; the distal end forms the lateral malleolus of the ankle.", "zh": "几乎不承重，主要供肌肉附着。腓骨头在膝下与胫骨相关节，下端膨大为外踝，构成踝关节外侧壁。" },
+    "clinical": { "en": "The common fibular nerve winds around the neck of the fibula and is vulnerable here, leading to foot drop.", "zh": "腓总神经绕腓骨颈走行，此处易受损，导致足下垂。" }
+  }
+]

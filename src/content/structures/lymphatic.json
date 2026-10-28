@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spleen", "system": "lymphatic", "region": "abdomen",
+    "names": { "la": "Splen", "en": "Spleen", "zh": "脾", "synonyms": ["lien"] },
+    "summary": { "en": "The largest lymphoid organ, lying in the left upper abdomen.", "zh": "最大的淋巴器官，位于左上腹。" },
+    "detail": { "en": "Lies against the diaphragm under ribs 9 to 11 on the left and is normally not palpable. The red pulp filters blood and removes old red cells; the white pulp mounts immune responses. Supplied by the splenic artery, a branch of the celiac trunk.", "zh": "位于左季肋区，贴膈、对第9~11肋，正常情况下肋下不能触及。红髓滤血并清除衰老红细胞，白髓参与免疫应答。血供来自腹腔干的分支脾动脉。" },
+    "function": { "en": "Filters blood, recycles iron, stores platelets and generates immune responses against blood-borne antigens.", "zh": "滤血，回收铁，储存血小板，并对血源性抗原产生免疫应答。" },
+    "clinical": { "en": "The spleen is the most commonly injured abdominal organ in blunt trauma; after splenectomy patients are vulnerable to encapsulated bacteria.", "zh": "脾是腹部钝性伤中最易受损的脏器；脾切除后易感染有荚膜细菌。" }
+  },
+  {
+    "id": "thymus", "system": "lymphatic", "region": "thorax",
+    "names": { "la": "Thymus", "en": "Thymus", "zh": "胸腺" },
+    "summary": { "en": "Primary lymphoid organ in the anterior mediastinum where T cells mature.", "zh": "位于前纵隔的中枢淋巴器官，T细胞在此成熟。" },
+    "detail": { "en": "Two lobes lie behind the manubrium and in front of the great vessels. It is largest in childhood and involutes after puberty, being gradually replaced by fat.", "zh": "分左、右两叶，位于胸骨柄后方、大血管前方。儿童期最发达，青春期后逐渐萎缩并被脂肪组织替代。" },
+    "function": { "en": "Provides the environment for T-lymphocyte maturation and selection.", "zh": "为T淋巴细胞的发育成熟与选择提供微环境。" },
+    "clinical": { "en": "Thymoma is associated with myasthenia gravis.", "zh": "胸腺瘤常伴发重症肌无力。" }
+  }
+]

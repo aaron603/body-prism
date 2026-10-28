@@ -1,0 +1,42 @@
+[
+  {
+    "id": "larynx", "system": "respiratory", "region": "head_neck",
+    "names": { "la": "Larynx", "en": "Larynx", "zh": "喉", "synonyms": ["voice box"] },
+    "summary": { "en": "Cartilaginous organ at the top of the trachea that guards the airway and produces voice.", "zh": "位于气管上端的软骨性器官，既保护气道，又是发音器官。" },
+    "detail": { "en": "Extends from C3 to C6. Built from nine cartilages: unpaired thyroid, cricoid and epiglottis, and paired arytenoid, corniculate and cuneiform. The vocal folds lie between the vestibular and glottic regions; the glottis is the narrowest part in adults.", "zh": "位于C3~C6水平，由9块软骨构成：单块的甲状软骨、环状软骨和会厌软骨，成对的杓状软骨、小角软骨和楔状软骨。声带位于喉腔中部，声门裂是成人喉腔最狭窄处。" },
+    "function": { "en": "Closes during swallowing to prevent aspiration and vibrates to produce sound.", "zh": "吞咽时关闭防止误吸，并通过声带振动发音。" },
+    "clinical": { "en": "Emergency cricothyrotomy is performed through the cricothyroid membrane.", "zh": "紧急情况下可经环甲膜行环甲膜穿刺或切开。" },
+    "relations": { "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "trachea", "system": "respiratory", "region": "thorax",
+    "names": { "la": "Trachea", "en": "Trachea", "zh": "气管", "synonyms": ["windpipe"] },
+    "summary": { "en": "Air tube connecting the larynx to the main bronchi.", "zh": "连接喉与主支气管的气道。" },
+    "detail": { "en": "About 10 to 12 cm long, extending from C6 to the sternal angle (T4/T5), where it divides at the carina. Supported by 16 to 20 C-shaped hyaline cartilage rings whose open sides face the esophagus and are closed by the trachealis muscle.", "zh": "长约10~12 cm，自C6下缘至胸骨角平面（T4/T5）分叉处为气管隆嵴。由16~20个“C”形透明软骨环支撑，缺口朝后，由气管肌封闭，紧邻食管。" },
+    "clinical": { "en": "Foreign bodies tend to enter the right main bronchus, which is shorter, wider and more vertical.", "zh": "异物更易进入右主支气管，因其较短、较粗且更垂直。" },
+    "relations": { "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "bronchi", "system": "respiratory", "region": "thorax",
+    "names": { "la": "Bronchi principales", "en": "Main bronchi", "zh": "主支气管", "synonyms": ["bronchus", "支气管"] },
+    "summary": { "en": "The two airways that branch from the trachea into the lungs.", "zh": "由气管分出、进入左右肺的两条气道。" },
+    "detail": { "en": "The right main bronchus is shorter (about 2 to 3 cm), wider and steeper than the left (about 4 to 5 cm). Inside the lung they divide into lobar, segmental and then smaller bronchi, down to terminal bronchioles, forming the bronchial tree.", "zh": "右主支气管短（约2~3 cm）、粗、走向陡直；左主支气管细而长（约4~5 cm）、走向倾斜。入肺后逐级分为肺叶支气管、肺段支气管直至终末细支气管，构成支气管树。" },
+    "relations": { "origin": ["trachea"], "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "right_lung", "system": "respiratory", "region": "thorax",
+    "names": { "la": "Pulmo dexter", "en": "Right lung", "zh": "右肺" },
+    "summary": { "en": "Larger lung with three lobes.", "zh": "较大的肺，分三叶。" },
+    "detail": { "en": "Divided by the oblique and horizontal fissures into superior, middle and inferior lobes, with 10 bronchopulmonary segments. Wider and shorter than the left because of the liver beneath.", "zh": "被斜裂和水平裂分为上叶、中叶和下叶，共10个肺段。因下方有肝，肺形较左肺宽而短。" },
+    "function": { "en": "Gas exchange occurs across about 300 million alveoli in both lungs.", "zh": "两肺共约3亿个肺泡，在此进行气体交换。" },
+    "clinical": { "en": "Aspiration pneumonia more often affects the right lower lobe.", "zh": "吸入性肺炎多累及右肺下叶。" },
+    "relations": { "origin": ["bronchi"] }
+  },
+  {
+    "id": "left_lung", "system": "respiratory", "region": "thorax",
+    "names": { "la": "Pulmo sinister", "en": "Left lung", "zh": "左肺" },
+    "summary": { "en": "Smaller lung with two lobes.", "zh": "较小的肺，分两叶。" },
+    "detail": { "en": "Divided by the oblique fissure into superior and inferior lobes, with 8 to 10 segments. The anterior border has the cardiac notch, and the lingula is a tongue-shaped projection of the superior lobe.", "zh": "被斜裂分为上叶和下叶，共8~10个肺段。前缘有心切迹，上叶下部舌状突起称肺小舌。" },
+    "relations": { "origin": ["bronchi"] }
+  }
+]

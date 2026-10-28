@@ -1,0 +1,59 @@
+[
+  {
+    "id": "esophagus", "system": "digestive", "region": "thorax",
+    "names": { "la": "Oesophagus", "en": "Esophagus", "zh": "食管", "synonyms": ["oesophagus", "gullet"] },
+    "summary": { "en": "Muscular tube carrying food from the pharynx to the stomach.", "zh": "将食物从咽输送到胃的肌性管道。" },
+    "detail": { "en": "About 25 cm long, from C6 to the cardia of the stomach at T11. It has three constrictions: at its origin, where the aortic arch and left main bronchus cross it, and where it passes through the diaphragm.", "zh": "长约25 cm，上起自C6下缘，下续胃贲门（约T11）。有三处生理性狭窄：起始处、与主动脉弓及左主支气管交叉处、穿膈食管裂孔处。" },
+    "clinical": { "en": "The three constrictions are common sites for foreign body lodging and esophageal carcinoma.", "zh": "三处狭窄是异物滞留和食管癌的好发部位。" },
+    "relations": { "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "stomach", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Gaster", "en": "Stomach", "zh": "胃", "synonyms": ["ventriculus"] },
+    "summary": { "en": "J-shaped expandable organ where food is mixed with acid and enzymes.", "zh": "呈“J”形、可扩张的器官，食物在此与胃酸和消化酶混合。" },
+    "detail": { "en": "Lies in the left upper abdomen. Parts: cardia, fundus, body, pyloric antrum and pylorus, plus the lesser and greater curvatures. The wall has an extra oblique muscle layer and mucosal folds (rugae). Blood supply comes from branches of the celiac trunk.", "zh": "位于左上腹。分为贲门部、胃底、胃体和幽门部（含幽门窦和幽门），另有胃小弯和胃大弯。肌层多一层斜行肌，黏膜形成皱襞。血供来自腹腔干的分支。" },
+    "function": { "en": "Stores food, begins protein digestion with pepsin and HCl, and releases chyme gradually into the duodenum.", "zh": "储存食物，借胃蛋白酶和盐酸开始蛋白质消化，并将食糜逐步排入十二指肠。" },
+    "clinical": { "en": "Helicobacter pylori infection is a major cause of peptic ulcer and gastric cancer.", "zh": "幽门螺杆菌感染是消化性溃疡和胃癌的重要病因。" },
+    "relations": { "origin": ["esophagus"], "innervation": ["vagus_nerve"] }
+  },
+  {
+    "id": "liver", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Hepar", "en": "Liver", "zh": "肝" },
+    "summary": { "en": "The largest internal organ, central to metabolism and bile production.", "zh": "体内最大的实质性器官，是代谢和胆汁生成的中心。" },
+    "detail": { "en": "Lies in the right hypochondrium beneath the diaphragm. Anatomical lobes: right, left, caudate and quadrate. Dual blood supply: about 75% from the portal vein and 25% from the hepatic artery. Functionally divided into eight Couinaud segments.", "zh": "位于右季肋区、膈下。解剖上分为右叶、左叶、尾状叶和方叶。双重血供：约75%来自门静脉，约25%来自肝动脉。按Couinaud分段法功能上分为8段。" },
+    "function": { "en": "Produces bile, synthesises plasma proteins and clotting factors, stores glycogen, and detoxifies drugs and toxins.", "zh": "分泌胆汁，合成血浆蛋白和凝血因子，储存糖原，并对药物和毒物进行解毒。" },
+    "clinical": { "en": "Cirrhosis causes portal hypertension, with esophageal varices a life-threatening complication.", "zh": "肝硬化可致门静脉高压，食管静脉曲张破裂出血是危及生命的并发症。" },
+    "relations": { "bloodSupply": ["inferior_vena_cava"] }
+  },
+  {
+    "id": "gallbladder", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Vesica biliaris", "en": "Gallbladder", "zh": "胆囊" },
+    "summary": { "en": "Pear-shaped sac under the liver that stores and concentrates bile.", "zh": "位于肝下的梨形囊，储存并浓缩胆汁。" },
+    "detail": { "en": "Divided into fundus, body, infundibulum and neck; its neck continues as the cystic duct, which joins the common hepatic duct to form the common bile duct. The fundus projects at the junction of the right costal margin and the lateral edge of rectus abdominis.", "zh": "分为胆囊底、体、漏斗和颈四部分；胆囊颈延续为胆囊管，与肝总管汇合成胆总管。胆囊底体表投影在右肋弓与右腹直肌外侧缘交点处。" },
+    "clinical": { "en": "Gallstones can cause biliary colic, and an inflamed gallbladder gives a positive Murphy sign.", "zh": "胆结石可引起胆绞痛，胆囊炎时Murphy征阳性。" }
+  },
+  {
+    "id": "pancreas", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Pancreas", "en": "Pancreas", "zh": "胰" },
+    "summary": { "en": "Elongated gland that secretes digestive enzymes and hormones.", "zh": "细长的腺体，兼有外分泌（消化酶）和内分泌（激素）功能。" },
+    "detail": { "en": "Retroperitoneal at the L1 to L2 level, with head (within the duodenal curve), neck, body and tail (reaching the splenic hilum). The main pancreatic duct joins the common bile duct at the hepatopancreatic ampulla opening into the duodenum.", "zh": "位于腹膜后，平对L1~L2，分胰头（被十二指肠环抱）、胰颈、胰体和胰尾（伸向脾门）。胰管与胆总管汇合形成肝胰壶腹，开口于十二指肠。" },
+    "function": { "en": "Exocrine acini secrete amylase, lipase and proteases; islets of Langerhans secrete insulin and glucagon.", "zh": "外分泌部腺泡分泌淀粉酶、脂肪酶和蛋白酶；胰岛分泌胰岛素和胰高血糖素。" },
+    "clinical": { "en": "Carcinoma of the head can obstruct the bile duct and cause painless jaundice.", "zh": "胰头癌可压迫胆总管，引起无痛性黄疸。" }
+  },
+  {
+    "id": "small_intestine", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Intestinum tenue", "en": "Small intestine", "zh": "小肠" },
+    "summary": { "en": "Long coiled tube where most digestion and absorption occurs.", "zh": "迂曲的长管，是食物消化和吸收的主要场所。" },
+    "detail": { "en": "About 5 to 7 m long, in three parts: duodenum (C-shaped, receives bile and pancreatic juice), jejunum and ileum. Circular folds, villi and microvilli increase the absorptive surface to roughly 200 m².", "zh": "长约5~7 m，分十二指肠（呈“C”形，接受胆汁和胰液）、空肠和回肠三段。环形皱襞、绒毛和微绒毛使吸收面积增至约200 m²。" },
+    "function": { "en": "Completes digestion and absorbs nutrients; the terminal ileum absorbs vitamin B12 and bile salts.", "zh": "完成消化并吸收营养物质；回肠末端吸收维生素B12和胆盐。" },
+    "clinical": { "en": "Meckel diverticulum, a remnant of the vitelline duct, is found in about 2% of people about 2 feet from the ileocecal valve.", "zh": "梅克尔憩室是卵黄管残留，约2%的人有，位于距回盲瓣约60 cm的回肠。" }
+  },
+  {
+    "id": "large_intestine", "system": "digestive", "region": "abdomen",
+    "names": { "la": "Intestinum crassum", "en": "Large intestine", "zh": "大肠" },
+    "summary": { "en": "Final segment of the digestive tract that absorbs water and forms feces.", "zh": "消化管末段，吸收水分并形成粪便。" },
+    "detail": { "en": "About 1.5 m long: cecum with the vermiform appendix, ascending, transverse, descending and sigmoid colon, rectum and anal canal. Characterised by teniae coli, haustra and omental appendices.", "zh": "长约1.5 m，包括盲肠（附阑尾）、升结肠、横结肠、降结肠、乙状结肠、直肠和肛管。结肠有三个特征性结构：结肠带、结肠袋和肠脂垂。" },
+    "function": { "en": "Absorbs water and electrolytes, hosts gut microbiota, and stores feces until defecation.", "zh": "吸收水和电解质，容纳肠道菌群，并储存粪便至排出。" },
+    "clinical": { "en": "Appendicitis classically starts with periumbilical pain that moves to McBurney's point.", "zh": "阑尾炎典型表现为脐周痛转移至麦氏点（McBurney点）。" }
+  }
+]

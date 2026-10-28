@@ -1,0 +1,26 @@
+[
+  {
+    "id": "kidneys", "system": "urinary", "region": "abdomen",
+    "names": { "la": "Renes", "en": "Kidneys", "zh": "肾", "synonyms": ["kidney", "ren"] },
+    "summary": { "en": "Paired bean-shaped organs that filter blood and produce urine.", "zh": "成对的蚕豆形器官，滤过血液并生成尿液。" },
+    "detail": { "en": "Retroperitoneal on either side of the vertebral column, from about T12 to L3, the right kidney slightly lower because of the liver. Each has a cortex, medulla with renal pyramids, and a renal pelvis draining into the ureter. About one million nephrons per kidney. Surrounded by perirenal fat and renal fascia.", "zh": "位于腹膜后脊柱两侧，约平T12~L3，右肾因肝的影响略低。每个肾分肾皮质、肾髓质（含肾锥体）和肾盂，肾盂续输尿管。每侧约有100万个肾单位。外包肾周脂肪和肾筋膜。" },
+    "function": { "en": "Filters about 180 litres of plasma per day, regulates fluid, electrolytes and acid-base balance, and secretes erythropoietin and renin.", "zh": "每日滤过约180升血浆，调节水、电解质和酸碱平衡，并分泌促红细胞生成素和肾素。" },
+    "clinical": { "en": "Renal calculi lodge at the three ureteric constrictions, causing colicky loin-to-groin pain.", "zh": "肾结石常嵌顿于输尿管三个狭窄处，引起由腰部向腹股沟放射的绞痛。" }
+  },
+  {
+    "id": "ureters", "system": "urinary", "region": "abdomen",
+    "names": { "la": "Ureteres", "en": "Ureters", "zh": "输尿管" },
+    "summary": { "en": "Two muscular tubes that carry urine from the kidneys to the bladder.", "zh": "两条肌性管道，将尿液从肾运送到膀胱。" },
+    "detail": { "en": "Each is about 25 cm long. It has three constrictions: at the pelviureteric junction, where it crosses the pelvic brim over the iliac vessels, and where it enters the bladder wall. In the pelvis it passes beneath the uterine artery (female) or ductus deferens (male).", "zh": "长约25 cm，有三处狭窄：肾盂输尿管移行处、跨越髂血管入小骨盆处、穿膀胱壁处。在盆腔内，女性从子宫动脉后下方、男性从输精管后方经过。" },
+    "clinical": { "en": "“Water under the bridge”: the ureter is at risk of injury during hysterectomy when the uterine artery is ligated.", "zh": "“桥下流水”：子宫切除术结扎子宫动脉时易损伤输尿管。" },
+    "relations": { "origin": ["kidneys"] }
+  },
+  {
+    "id": "urinary_bladder", "system": "urinary", "region": "pelvis",
+    "names": { "la": "Vesica urinaria", "en": "Urinary bladder", "zh": "膀胱" },
+    "summary": { "en": "Distensible muscular sac that stores urine.", "zh": "可扩张的肌性囊，储存尿液。" },
+    "detail": { "en": "Lies behind the pubic symphysis. Has an apex, body, fundus and neck. The trigone, a smooth triangle between the two ureteric orifices and the internal urethral orifice, is a clinically important area. Wall made of detrusor muscle lined by transitional epithelium; capacity about 300 to 500 mL.", "zh": "位于耻骨联合后方，分膀胱尖、体、底和颈。膀胱三角位于两输尿管口与尿道内口之间，黏膜平滑，是临床重要区域。壁由逼尿肌构成，内衬变移上皮，容量约300~500 mL。" },
+    "clinical": { "en": "A full bladder rises above the pubic symphysis, allowing suprapubic puncture without entering the peritoneal cavity.", "zh": "膀胱充盈时升至耻骨联合以上，可在不经腹膜腔的情况下行耻骨上穿刺。" },
+    "relations": { "origin": ["ureters"] }
+  }
+]
